@@ -1,0 +1,27 @@
+Doodler game:
+[x] create the gameboard (grid) component
+[x] create the doodler component
+[x] create the platform component and generate platform form state
+[x] create the platformList component 
+[x] add doodler to the gameboard, add platform to the platform List, add platform list to the gameboard 
+[x] make platform move
+[x] check if platform are on board
+[x] set new coordinate for platform outside the board
+[x] make doodler jump
+[x] connect jump to the onkeypres
+[x] make doodler move left right on arrow keys press
+[x] set jump available only after platform collision 
+[x] set game over state and connect it to the function
+[] add reset button after game over
+[] set scoreboard
+	[] 
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+
