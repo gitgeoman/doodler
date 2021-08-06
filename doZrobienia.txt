@@ -15,13 +15,3 @@ Doodler game:
 [] add reset button after game over
 [] set scoreboard
 	[] 
-[]
-[]
-[]
-[]
-[]
-[]
-[]
-[]
-[]
-

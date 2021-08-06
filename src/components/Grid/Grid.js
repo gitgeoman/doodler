@@ -146,7 +146,7 @@ class Grid extends Component{
 			//console.log(this.state.doodler.isJumping)
 				let stateOfDoodlerCopy=JSON.parse(JSON.stringify(this.state.doodler))
 					stateOfDoodlerCopy.style.topValue=stateOfDoodlerCopy.style.topValue-8
-					stateOfDoodlerCopy.style.top=stateOfDoodlerCopy.style.topValue
+					stateOfDoodlerCopy.style.top=`${stateOfDoodlerCopy.style.topValue}px`
 					this.setState({doodler:stateOfDoodlerCopy})
 					if ((Math.abs(this.state.doodler.style.topValue-this.state.doodler.AtopValue)>=200)){
 						let actualstateOfDoodlerCopy=JSON.parse(JSON.stringify(this.state.doodler));
@@ -158,7 +158,7 @@ class Grid extends Component{
 			let fallstateOfDoodlerCopy=JSON.parse(JSON.stringify(this.state.doodler))
 
 					fallstateOfDoodlerCopy.style.topValue=fallstateOfDoodlerCopy.style.topValue+8
-					fallstateOfDoodlerCopy.style.top=fallstateOfDoodlerCopy.style.topValue
+					fallstateOfDoodlerCopy.style.top=`${fallstateOfDoodlerCopy.style.topValue}px`
 					this.setState({doodler:fallstateOfDoodlerCopy})
 					//tutaj trzebaby zrobić zwolnienie doodlera do predkosci platformy dla przypadku zderzenia z platforma
 			}
